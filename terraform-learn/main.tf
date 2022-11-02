@@ -1,7 +1,7 @@
 provider "aws" {
     region = "ca-central-1"
-    access_key = "AKIAZWOC7CBB5SWGHTHS"
-    secret_key = "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"
+    # access_key = "read from aws config"
+    # secret_key = "read from aws config"
 }
 
 variable "subnet_cidr_block" {
